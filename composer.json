@@ -1,0 +1,31 @@
+{
+    "name": "ryanvelbon/composer-package-starter",
+    "type": "library",
+    "description": "This is a template for creating composer packages",
+    "keywords": ["composer package", "starter template", "php library"],
+    "homepage": "https://github.com/ryanvelbon/composer-package-starter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Vel Bon",
+            "email": "ryanvelbon@gmail.com",
+            "homepage": "https://ryanvelbon.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ryanvelbon\\ComposerPackageStarter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}
